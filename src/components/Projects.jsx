@@ -31,6 +31,7 @@ const projects = [
     title: "Charity Website",
     description:
       "A website for charity organization showcasing donation features.",
+
     link: "https://curious-axolotl-4df05c.netlify.app/",
     image: "/assets/Screenshot 2025-05-10 215123.png",
   },
