@@ -82,7 +82,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="\src\Resume.PDF"
+                href="/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
