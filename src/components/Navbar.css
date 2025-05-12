@@ -1,0 +1,2 @@
+.nav-link { cursor: pointer; margin-left: 15px; transition: color 0.3s }
+.nav-link:hover { color: #00d9ff !important; }

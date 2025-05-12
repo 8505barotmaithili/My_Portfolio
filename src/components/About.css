@@ -1,0 +1,75 @@
+.about-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.education-section-timeline {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-top: 40px;
+  position: relative;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  border-left: 3px solid #007bff;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -17px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #007bff;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.timeline-content {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-4px);
+}
+
+.timeline-content h5 {
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.institute {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 20px;
+  }
+
+  .timeline-content {
+    padding: 15px;
+  }
+}

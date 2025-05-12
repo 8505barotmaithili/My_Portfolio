@@ -1,0 +1,33 @@
+.skills-section {
+  background: #e2e6ea;
+  padding-top: 40px;
+}
+
+.skill-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+  text-align: center;
+}
+
+.skill-item:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item h5 {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.skill-icon {
+  color: #007bff; /* Color of icons */
+}
+
+.skill-item:hover .skill-icon {
+  color: #28a745; /* Change color on hover */
+}
+
